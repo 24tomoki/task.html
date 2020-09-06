@@ -10,9 +10,9 @@ header {
 }
 
 main {
-  width: 300px;
+  width: 960px;
   margin: 50px auto;
-  display: block;
+  display: flex;
 }
 
 .step-box {
@@ -67,12 +67,30 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  main {
-    width: 100%;
+  header {
+    height: 50px;
   }
-}
 
-.step-box {
-  width: 90%;
-  margin-bottom: 20px;
+  main {
+    display: block;
+    width: 100%;
+    margin: 50px;
+  }
+
+  .step-box {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .step-img1 {
+    height: 150px;
+  }
+
+  .step-img2 {
+    height: 150px;
+  }
+
+  .step-img3 {
+    height: 150px;
+  }
 }
